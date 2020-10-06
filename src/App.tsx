@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import BitField from './components/BitField';
+import { BitVisualizer } from './components/BitVisualizer';
+import {randomColor} from './utils/Utilities'
 
 function App() {
+  let queryString = new URLSearchParams(window.location.search);
+  let value = queryString.get('value');
+  let fields = queryString.get('bitFields');
+  let bitFields: BitField[] = [];
+  if (fields) {
+    try {
+      bitFields = JSON.parse(fields);
+      for (const bitField of bitFields) {
+        bitField.color = randomColor();
+      }
+    }
+    catch (e) {
+      alert(e);
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BitVisualizer 
+        initialValue={BigInt(value ? value : 0)}
+        initialBitFields={bitFields}
+      />
+    </>
   );
 }
 
