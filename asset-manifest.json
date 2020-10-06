@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/BitFieldViz/static/js/main.6e9ce51c.chunk.js",
+    "main.js.map": "/BitFieldViz/static/js/main.6e9ce51c.chunk.js.map",
+    "runtime-main.js": "/BitFieldViz/static/js/runtime-main.e323055e.js",
+    "runtime-main.js.map": "/BitFieldViz/static/js/runtime-main.e323055e.js.map",
+    "static/js/2.fe488fe7.chunk.js": "/BitFieldViz/static/js/2.fe488fe7.chunk.js",
+    "static/js/2.fe488fe7.chunk.js.map": "/BitFieldViz/static/js/2.fe488fe7.chunk.js.map",
+    "index.html": "/BitFieldViz/index.html",
+    "precache-manifest.232bdda8fed4910d4e297e42f7f7e6a9.js": "/BitFieldViz/precache-manifest.232bdda8fed4910d4e297e42f7f7e6a9.js",
+    "service-worker.js": "/BitFieldViz/service-worker.js",
+    "static/js/2.fe488fe7.chunk.js.LICENSE.txt": "/BitFieldViz/static/js/2.fe488fe7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e323055e.js",
+    "static/js/2.fe488fe7.chunk.js",
+    "static/js/main.6e9ce51c.chunk.js"
+  ]
+}
