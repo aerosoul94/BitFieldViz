@@ -75,7 +75,7 @@ export function BitTable(props: BitTableProps) {
   }
 
   return (
-    <Table padding="none" style={{minWidth: 650, padding:0}} size="small">
+    <Table padding="none" size="small">
       {bytes}
     </Table>
   );
