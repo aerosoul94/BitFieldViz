@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BitFieldViz/precache-manifest.232bdda8fed4910d4e297e42f7f7e6a9.js"
+  "/BitFieldViz/precache-manifest.05757d8448f2a919c60449f97a40ba31.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4507c96ebf900b70afbe70388f23faf8",
+    "revision": "bb8e9d2774d432c1b1ef37b9379354b6",
     "url": "/BitFieldViz/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BitFieldViz/static/js/2.fe488fe7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd1aa88920371651a977",
-    "url": "/BitFieldViz/static/js/main.6e9ce51c.chunk.js"
+    "revision": "98321ca8192f4df752c1",
+    "url": "/BitFieldViz/static/js/main.4bb7e561.chunk.js"
   },
   {
     "revision": "90fbf8441bea00e20666",
